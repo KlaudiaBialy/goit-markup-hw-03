@@ -1,2 +1,2 @@
 Zadanie domowe - Moduł II HTML
-https://klaudiabialy.github.io/goit-markup-hw-02/
+https://klaudiabialy.github.io/goit-markup-hw-03/
