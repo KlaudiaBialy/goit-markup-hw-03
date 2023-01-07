@@ -172,13 +172,9 @@ h2 {
 .footer__nav-links {
   color: var(--color-lighter-grey);
 }
-img-service {
+.img-service {
   width: 370;
   height: 294;
-}
-.img-members {
-  width: 270;
-  height: 260;
 }
 .img-cards {
   width: 370;
