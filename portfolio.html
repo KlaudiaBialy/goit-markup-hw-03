@@ -15,33 +15,31 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo">Web<span class="header-logo">Studio</span></a>
-        <ul>
+    <header class="container container-header">
+      <nav class="page-header-logo">
+        <a href="./index.html" class="header-item logo"
+          >Web<span class="header-logo">Studio</span></a
+        >
+        <ul class="header__nav">
+          <li><a href="#" class="header-item header__nav-items">Agencja</a></li>
           <li>
-            <a href="#" class="header__nav-items"><b>Agencja</b></a>
+            <a href="./portfolio.html" class="header-item header__nav-items">Portfolio</a>
           </li>
-          <li>
-            <a href="#" class="header__nav-items"><b>Portfolio</b></a>
-          </li>
-          <li>
-            <a href="#" class="header__nav-items"><b>Kontakt</b></a>
-          </li>
+          <li><a href="#" class="header-item header__nav-items">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header__nav-contacts">
         <li>
-          <a href="info@devstudio.com" class="header__nav-links">info@devstudio.com</a>
+          <a href="info@devstudio.com" class="header-item header__nav-links">info@devstudio.com</a>
         </li>
         <li>
-          <a href="+48111111111" class="header__nav-links">+48 111 111 111</a>
+          <a href="+48111111111" class="header-item header__nav-links">+48 111 111 111</a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
-        <ul>
+      <section class="div-buttons">
+        <ul class="buttons">
           <li>
             <button type="button" class="button__portfolio">Wszystkie</button>
           </li>
@@ -59,14 +57,14 @@
           </li>
         </ul>
       </section>
-      <section>
-        <ul>
-          <li>
+      <section class="container-portfolio">
+        <ul class="card-set">
+          <li class="card">
             <img class="img-cards" src="./images/laptop.jpg" alt="laptop" />
             <h3 class="body__cards">Technocrack</h3>
             <p class="body__cards-items">Strona internetowa</p>
           </li>
-          <li>
+          <li class="card">
             <img
               class="img-cards"
               src="./images/basketball-players.jpg"
@@ -75,7 +73,7 @@
             <h3 class="body__cards">Grafika New Orlean vs Golden Star</h3>
             <p class="body__cards-items">Dizajn</p>
           </li>
-          <li>
+          <li class="card">
             <img
               class="img-cards"
               src="./images/seafood-restaurant.jpg"
@@ -84,33 +82,32 @@
             <h3 class="body__cards">Restauracja Seafood</h3>
             <p class="body__cards-items">Aplikacja</p>
           </li>
-          <li>
+          <li class="card">
             <img class="img-cards" src="./images/headphones.jpg" alt="headphones" />
             <h3 class="body__cards">Projekt Prime</h3>
             <p class="body__cards-items">Marketing</p>
           </li>
-          <li>
+          <li class="card">
             <img class="img-cards" src="./images/boxes.jpg" alt="boxes" />
             <h3 class="body__cards">Projekt Boxes</h3>
             <p class="body__cards-items">Aplikacja</p>
           </li>
-
-          <li>
+          <li class="card">
             <img class="img-cards" src="./images/monitor.jpg" alt="monitor" />
             <h3 class="body__cards">Inspiration has no Borders</h3>
             <p class="body__cards-items">Strona internetowa</p>
           </li>
-          <li>
+          <li class="card">
             <img class="img-cards" src="./images/magazine.jpg" alt="magazine" />
             <h3 class="body__cards">Magazyn Limited Edition</h3>
             <p class="body__cards-items">Dizajn</p>
           </li>
-          <li>
+          <li class="card">
             <img class="img-cards" src="./images/label-tag.jpg" alt="logo label tag" />
             <h3 class="body__cards">Projekt LAB</h3>
             <p class="body__cards-items">Marketing</p>
           </li>
-          <li>
+          <li class="card">
             <img
               class="img-cards"
               src="./images/type-on-the-keyboard.jpg"
@@ -122,15 +119,18 @@
         </ul>
       </section>
     </main>
-    <footer class="background">
-      <a class="logo">Web<span class="footer-logo">Studio</span></a>
+    <footer class="container container-footer background">
+      <div class="logo-footer">
+        <a class="logo">Web<span class="footer-logo">Studio</span></a>
+        >
+      </div>
       <address>
         <ul class="footer_nav">
           <li>
             <a class="footer__nav-address">m. Warszawa Aleje Jerozolimskie 21</a>
           </li>
           <li>
-            <a href="info@example.com" class="footer__nav-links mail">info@example.com</a>
+            <a href="info@example.com" class="footer__nav-links">info@example.com</a>
           </li>
           <li>
             <a href="+48111111111" class="footer__nav-links">+48 111 111 111</a>

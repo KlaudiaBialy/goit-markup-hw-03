@@ -15,55 +15,55 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo">Web<span class="header-logo">Studio</span></a>
-        <ul class="header__nav">
-          <li><a href="#" class="header__nav-items">Agencja</a></li>
+    <header class="container container-header">
+      <nav class="page-header-logo">
+        <a href="./index.html" class="header-item logo">Web<span class="header-logo">Studio</span></a> 
+      <ul class="header__nav">
+          <li><a href="#" class="header-item header__nav-items">Agencja</a></li>
           <li>
-            <a href="./portfolio.html" class="header__nav-items">Portfolio</a>
+            <a href="./portfolio.html" class="header-item header__nav-items">Portfolio</a>
           </li>
-          <li><a href="#" class="header__nav-items">Kontakt</a></li>
+          <li><a href="#" class="header-item header__nav-items">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header__nav-contacts">
         <li>
-          <a href="info@devstudio.com" class="header__nav-links">info@devstudio.com</a>
+          <a href="info@devstudio.com" class="header-item header__nav-links">info@devstudio.com</a>
         </li>
         <li>
-          <a href="+48111111111" class="header__nav-links">+48 111 111 111</a>
+          <a href="+48111111111" class="header-item header__nav-links">+48 111 111 111</a>
         </li>
       </ul>
     </header>
     <main>
-      <section class="background">
-        <h1>efektywne rozwiązania dla waszego biznesu</h1>
+      <section class="background container main">
+        <h1 class="solutions">efektywne rozwiązania </br> dla waszego biznesu</h1>
         <button type="button" class="button__main-page">Zamów usługę</button>
       </section>
-      <section>
-        <ul>
-          <li>
+      <section class="container">
+        <ul class="div-headline">
+          <li class="headline-item">
             <h3 class="headline">LOREM IPSUM</h3>
             <p  class="headline-items">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h3 class="headline">LOREM IPSUM</h3>
-            <p class="headline-items">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-              sodales dui. Interdum et malesuada
-            </p class="headline-items">
-          </li>
-          <li>
+          <li class="headline-item">
             <h3 class="headline">LOREM IPSUM</h3>
             <p class="headline-items">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="headline-item">
+            <h3 class="headline">LOREM IPSUM</h3>
+            <p class="headline-items">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="headline-item">
             <h3 class="headline">LOREM IPSUM</h3>
             <p class="headline-items">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -72,24 +72,24 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
+      <section class="container service-section">
+        <h2 class="service">Czym się zajmujemy</h2>
+        <ul class="services">
+          <li class="services-list">
             <img class="img-service" src="./images/keyboard.jpg" alt="klawiatura"/>
           </li>
-          <li>
-            <img class="img-service"  src="./images/keyboard.jpg" alt="telefon"/>
+          <li class="services-list">
+            <img class="img-service"  src="./images/phone.jpg" alt="telefon"/>
           </li>
-          <li>
+          <li class="services-list">
             <img class="img-service" src="./images/tablet.jpg" alt="tablet"/>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
+      <section class="container team">
+        <h2 class="our-members">Nasz zespół</h2>
+        <ul class="members">
+          <li class="members-item">
             <img class="img-members"
               src="images/joe-doe-1.jpg"
               alt="członek zespołu-John Doe" width="270"
@@ -98,7 +98,7 @@
             <h3 class="team__member">John Doe</h3>
             <p class="team__member-position">Product Designer</p>
           </li>
-          <li>
+          <li class="members-item">
             <img class="img-members"
               src="images/joe-doe-2.jpg"
               alt="członek zespołu-John Doe" width="270"
@@ -107,7 +107,7 @@
             <h3 class="team__member">John Doe</h3>
             <p class="team__member-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="members-item">
             <img class="img-members"
               src="images/joe-doe-3.jpg"
               alt="członek zespołu-John Doe" width="270"
@@ -116,7 +116,7 @@
             <h3 class="team__member">John Doe</h3>
             <p class="team__member-position">Marketing</p>
           </li>
-          <li>
+          <li class="members-item">
             <img class="img-members"
               src="images/joe-doe-4.jpg"
               alt="członek zespołu-John Doe" width="270"
@@ -128,9 +128,10 @@
         </ul>
       </section>
     </main>
-    <footer class="background">
+    <footer class="container container-footer background">
+      <div class="logo-footer">
   <a class="logo">Web<span class="footer-logo">Studio</span></a>
-      >
+      ></div>
       <address>
         <ul class="footer_nav">
           <li>
